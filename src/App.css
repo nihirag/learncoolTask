@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+input,
+select {
+  background-color: transparent;
+}
+input {
+  width: 250px;
+}
+select {
+  margin: 10px;
+}
+.heading {
+  background-color: #fea82f;
+  text-align: center;
+  color: #27476e;
+  padding: 15px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+.schedule-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.schedule {
+  margin: 15px 0;
+  border: 0.5px solid grey;
+  border-radius: 6px;
+  padding: 10px 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.dateDiv {
+  border-radius: 4px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2163b3;
+  color: white;
+  font-weight: bold;
+}
+
+.detailsDiv {
+  margin-left: 10px;
+  align-self: flex-start;
+  text-overflow: ellipsis;
+  min-width: 200px;
+  max-width: 200px;
+}
+.title {
+  overflow: hidden;
+
+  margin-bottom: 2px;
+  text-overflow: ellipsis;
+  overflow-wrap: normal;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.time {
+  font-size: 10px;
+  font-style: italic;
+  text-align: left;
+}
+.participants {
+  margin-top: 5px;
+  font-size: 10px;
+  font-style: italic;
+  text-align: right;
+}
+.addButton {
+  background-color: #2163b3;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  align-self: center;
+  margin: 10px;
+  margin-left: 200px;
+  cursor: pointer;
+}
+.addButton:hover {
+  opacity: 0.8;
+}
+.creationForm {
+  margin: 20px;
+  display: none;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.creationForm p {
+  font-weight: bolder;
+  margin: 10px 0;
+}
+.creationForm input {
+  margin: 5px 0;
+  padding: 10px 25px;
+  border-radius: 4px;
+  border: 0.5px grey solid;
+}
+/* input[type="date"] {
+  width: 230px;
+} */
+.creationForm button {
+  background-color: #2163b3;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  align-self: center;
+  margin: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
